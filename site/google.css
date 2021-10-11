@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 main {
     padding-bottom: 35px;
 }
@@ -38,7 +42,6 @@ button:hover {
     height: 92px;
     display: flex;
     position: absolute;
-    padding-bottom: 109px;
 }
 
 .googleimg-box {
@@ -52,7 +55,6 @@ button:hover {
 
 .search-form {
     top: 269px;
-    /* position: absolute; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -78,8 +80,7 @@ button:hover {
 footer {
     display: block;
     bottom: 0;
-    font-size: 35px;
-    height: 35px;
+    height: 40px;
     position: fixed;
     width: 100%;
     margin: 0 auto;
@@ -92,13 +93,13 @@ footer {
 }
 
 .right {
-    margin-right: 30px;
+    margin-right: 25px;
     float: right;
 }
 
 
 .left {
-    margin-left: 30px;
+    margin-left: 25px;
 }
 
 a:link {
