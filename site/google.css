@@ -1,9 +1,14 @@
 body {
-    margin: 0px;
+    margin: 0;
 }
 
 main {
-    padding-bottom: 35px;
+    /* padding-bottom: 35px; */
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
 }
 
 button {
@@ -23,9 +28,6 @@ button {
 }
 
 .button-wrapper {
-    display: flex;
-    justify-content:center;
-    align-items: center;
     padding-top: 25px;
 }
 
@@ -40,25 +42,17 @@ button:hover {
     padding-top: 109px;
     width: 272px;
     height: 92px;
-    display: flex;
-    position: absolute;
 }
 
 .googleimg-box {
-    margin-top: 89px;
-    height: 233px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 65px;
+    /* height: 233px; */
 
 }
 
 .search-form {
     top: 269px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .search-box {
@@ -116,5 +110,3 @@ a:hover {
     color: #5f6368;
     text-decoration: underline;
 }
-
-
